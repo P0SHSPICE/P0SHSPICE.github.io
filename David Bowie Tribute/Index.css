@@ -1,0 +1,74 @@
+/* CSS Document */
+
+div.fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	font-size: 45px;
+	font-family: courier;
+}
+ body,td,th {
+	font-family: courier;
+	font-size: 12px;
+	color: rgb(0,0,0);
+	
+}
+ .fixed.menu ul li {
+	font-size: 16px;
+	list-style:none;
+	font-weight:bold;
+}
+
+.fixed.menu ul li:hover {
+	list-style:square;
+	}
+
+ a {
+	color: #FFF;
+	text-decoration: none;
+ }
+ a:hover {
+	 text-decoration: none;
+ }
+
+*[id]:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -75px; 
+  height: 75px; 
+  visibility: hidden; 
+}
+.gradient {
+  background-color: pink;
+  background-image:
+    linear-gradient(
+    #ebe9f9 0%, #6CC 14%, #F96 35%, #ffa5a7 59%, #cec7ec 84%, #c1bfea 100%
+    );
+}
+.balloongradient {
+	backgrounf-color: blue;
+	background-image: linear-gradient( #09F, #9CF);
+
+}
+.sailboat{
+	background-color:rgb(0,51,102);
+}
+.blackstar {
+	background-color: #000000;
+	font-size:36px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight:bolder;
+}
+
+.h1, h2, h3, h4, h5, h6 {
+	font-size:16px;
+}
+div.intextlink {
+	display:inline;
+	font-size:12px;
+	font-family:courier;
+	font-weight:800;
+	font-style:italic;
+	cursor:help;
+}
