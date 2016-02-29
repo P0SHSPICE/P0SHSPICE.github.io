@@ -1,0 +1,29 @@
+/* CSS Document */
+
+.gradient {
+  background-color: pink;
+  background-image:
+    linear-gradient(
+    #FC9 0%, #FCC 64%, #FFC 100%
+    );
+}
+
+body {
+	font-family: helvetica;
+	
+}
+h2,h4,h5,h6 {
+	font-size:15px
+}
+h1{
+	font-size:24px;
+}
+
+pre { 
+
+color: #666;
+font-size:12px;
+font-family:Arial, Helvetica, sans-serif;
+
+	
+}
